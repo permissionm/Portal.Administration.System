@@ -1,0 +1,53 @@
+﻿@model Portal.AdminSystem.Models.ClientViewWelcome
+
+@{
+    ViewBag.Title = "New Client Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div class="Container2">
+            <div class="left">
+                <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+                <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+            </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+            <hr class="portalhr" />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+            <div class="form-group greyPortal">
+                @Html.LabelFor(model => model.ClientID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.ClientID, Model.ClientList, "Select Client", new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group greyPortal">
+                @Html.LabelFor(model => model.TemplateID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.TemplateID, Model.TemplateList, "Select Template", new { @class = "form-control" })
+                </div>
+            </div>
+
+                 <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Submit" class="portalbtn btn-default" />
+                    <input type="reset" value="Reset" class="portalbtn btn-default" />
+                    <input type="button" id="cancel" value="Cancel" class="portalbtn btn-default" onclick="location.href='@Url.Action("Index","Home")'; " />
+                </div>
+        </div>
+        </div>
+        </div>
+}
+
+<br />

@@ -1,0 +1,88 @@
+﻿@model Portal.AdminSystem.Models.MemberModel
+
+@{
+    ViewBag.Title = "Member Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="portalhr" />
+    <dl class="dl-horizontal">
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.MemberID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MemberID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+
+        <dt class="greyPortal" >
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Surname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Surname)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ClientID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.WlcSent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WlcSent)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+    </dl>
+    <p>
+        <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("MemberSearch")'; " />
+    </p>
+</div>
+<br />

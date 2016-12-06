@@ -1,0 +1,34 @@
+﻿<script type="text/javascript">
+    function bookmarksite(title, url) {
+        if (window.sidebar) { // firefox
+            window.sidebar.addPanel(title, url, "");
+        } else if (window.opera && window.print) { // opera
+            //alert('Press ctrl+D to bookmark (Command+D for macs) after you click Ok');
+            alert('To bookmark this website using this browser. You will have to log out, and then press ctrl+D to bookmark (Command+D for macs) after you click Ok to close this message box');
+        } else if (window.chrome) { // chrome
+            alert('To bookmark this website using this browser. You will have to log out, and then press ctrl+D to bookmark (Command+D for macs) after you click Ok to close this message box');
+        } else if (document.all) { // ie
+            window.external.AddFavorite(url, title);
+        }
+    }
+</script>
+<div class="headPoints">&nbsp;</div>
+<div class="headSearch">
+    <ul id="ulHeader">
+        <li>
+            <a class="headerMember">@ViewData["welcomeMember"]</a>
+            <img class="navRgtDown" src="@ViewBag.clientCSS/Images/menuarrow.png" alt="" />
+            <ul class="ulHeadersub">
+                <li>
+                    @Html.ActionLink("Update my details", "UpdateMyDetails", "UpdateMyDetails", new { curPage = "Update my details" }, null)
+                </li>
+                <li>
+                    <a href="javascript:bookmarksite('Global Wellness Portal','@ViewBag.CSS/Portal/Member/LogIn/#DisplayName');">Bookmark</a>
+                </li>
+                <li class="ulLastLI">
+                    <a href="@Url.Content("~/Member/LogOut?urlpart=#DisplayName")">Logout</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>

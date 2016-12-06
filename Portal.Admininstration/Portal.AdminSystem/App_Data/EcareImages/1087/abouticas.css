@@ -1,0 +1,11 @@
+﻿#cntntAboutICAS { margin: 10px 0 10px 0; width: 910px; }
+#AboutICASWrap { clear: both; width: 910px; }
+#quarterWrap { margin: 20px 0 10px 0; width: 910px; }
+#quarterWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#quarterWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#quarterWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#quarterBody { padding: 0 15px; width: 870px; }
+#quarterBody h4 { margin-bottom: 15px; }
+#quarterBody p { margin-bottom: 15px; }
+#quarterBody ul { margin: 0 0 15px 0; }
+.quarterLinkHead { margin-bottom: 15px; color: #003366; font-weight: bold; line-height: 19px; }

@@ -1,0 +1,19 @@
+﻿#cntntInnerUpdateMyDetails { background-color: #FFF; }
+#personalWrap { float: left; margin: 15px 0; width: 580px; }
+#personalWrap .curve607top, #personalWrap .curve607btm { width: 580px; }
+#personalWrap .curvemid { padding: 0 20px; width: 540px; background-image: url(Images/curve_mid_580.png); }
+#personalWrap .curvemid .curveSolidWrap { margin: -5px 0 15px -15px; width: 570px; }
+#personalWrap .curvemid .curveSolidWrap .curveSolid39Mid { width: 545px; }
+#personalBody { width: 540px; }
+#updateDetailsBody { margin: 0 auto; width: 300px; }
+.editor-label { padding: 10px 0 0 0; height: 18px; }
+.editor-field { padding: 5px 0; height: 25px; }
+label { display: block; height: 18px; font-weight: bold; line-height: 18px; }
+.clsSubmit { margin-top: 20px; }
+#imageWrap { float: left; margin: 15px 0 15px 10px; width: 310px; }
+#imageWrap .curve322top, #imageWrap .curve322btm { width: 310px; }
+#imageWrap .curvemid { padding: 0 20px; width: 270px; background-image: url(Images/curve_mid_310.png); }
+#imageWrap .curvemid .curveSolidWrap { margin: -5px 0 15px -15px; width: 300px; }
+#imageWrap .curvemid .curveSolidWrap .curveSolid39Mid { width: 275px; }
+#imageBody { padding: 10px 0; width: 270px; }
+#imageBody #tbProfileImg { margin: 0 auto; }

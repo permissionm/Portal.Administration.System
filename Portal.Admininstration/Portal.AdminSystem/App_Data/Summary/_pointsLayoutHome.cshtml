@@ -1,0 +1,13 @@
+﻿<div class="myrewardsWrapInner">
+    <div class="divImageHome" style="background-image:url(@ViewBag.ImageName);"></div>
+    <div class="divTotalNext">
+        @if(int.Parse(ViewBag.UntilNextLevel) > 1000){
+        <div class="divTotalHome1"><span style="color:@ViewBag.Color;">@ViewBag.TotalPoints</span> Total points</div>
+        }else{
+        <div class="divTotalHome"><span style="color:@ViewBag.Color;">@ViewBag.TotalPoints</span><br />Total points</div>
+        <div class="divNextHome"><span>@ViewBag.UntilNextLevel</span> Points<br />to next level</div>
+        }
+    </div>
+    <div class="clrBoth">&nbsp;</div>
+</div>
+<div class="clrBoth">&nbsp;</div>

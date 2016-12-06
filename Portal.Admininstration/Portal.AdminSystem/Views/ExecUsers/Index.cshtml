@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Portal.AdminSystem.Models.ExecUsersModel>
+
+@{
+    ViewBag.Title = "Active Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="Container2">
+        <div class="left">
+            <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+            <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+        </div>
+        <p class="right">
+            <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+        </p>
+        <br />
+        <br />
+        <hr class="exechr" />
+        <table class="table">
+            <tr class="redPortal">
+                <th>
+                    @Html.DisplayNameFor(model => model.ExecName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ExecSurname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ExecUsername)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ExecPassword)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TypeID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Active)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExecName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExecSurname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExecUsername)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ExecPassword)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TypeID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Active)
+                    </td>  
+                </tr>
+            }
+
+        </table>
+        </div>
+<br />

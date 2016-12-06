@@ -1,0 +1,5 @@
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem.Shared\Portal.AdminSystem.Shared\bin\Debug\Portal.AdminSystem.Shared.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem.Shared\Portal.AdminSystem.Shared\bin\Debug\Portal.AdminSystem.Shared.pdb
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem.Shared\Portal.AdminSystem.Shared\obj\Debug\Portal.AdminSystem.Shared.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem.Shared\Portal.AdminSystem.Shared\obj\Debug\Portal.AdminSystem.Shared.pdb
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem.Shared\Portal.AdminSystem.Shared\obj\Debug\Portal.AdminSystem.Shared.csprojResolveAssemblyReference.cache

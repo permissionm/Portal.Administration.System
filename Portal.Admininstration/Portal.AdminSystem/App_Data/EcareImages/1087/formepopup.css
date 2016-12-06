@@ -1,0 +1,15 @@
+﻿#cntntInnerForMeFirst { margin: 0; width: 850px; }
+#ForMeFirstWrap { margin-bottom: 5px; width: 850px; }
+#ForMeFirstWrap .curvemid { padding: 0 5px; width: 840px; background-image: url(Images/curve_mid_850.png); }
+#ForMeFirstWrap .curvemid .curveSolidWrap { margin-bottom: 5px; width: 840px; }
+#ForMeFirstWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 815px; }
+.ForMeFirstBody { padding: 0 15px; width: 820px; }
+.ForMeFirstBody h4 { margin-bottom: 5px; }
+.ForMeFirstBody p { margin-bottom: 10px; }
+.ForMeFirstBody ul { margin: 5px 0 0 0; width: 820px; }
+.ForMeFirstBody ul li { width: 820px; }
+.toolboxbtnFirst { float: left; margin: 0; padding: 0; width: 60px; height: 66px; cursor: default; }
+.tbbtnImgFirst { margin: 0; padding: 0; width: 60px; height: 66px; }
+.tbbtnTextWrap { float: left; padding: 10px 100px 0 15px; width: 635px; line-height: 19px; }
+.tbbtnTextWrap a { color: #003366; vertical-align: top; font-weight: bold; line-height: 18px; }
+.galleryLinkHead { margin-bottom: 15px; color: #003366; font-weight: bold; line-height: 19px; }

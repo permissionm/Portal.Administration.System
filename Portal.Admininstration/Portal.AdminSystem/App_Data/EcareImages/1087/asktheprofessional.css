@@ -1,0 +1,16 @@
+﻿#divAskAPro { margin-bottom: 10px; width: 910px; }
+#divAskAPro .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#divAskAPro .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#divAskAPro .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#divAskAProBody { margin-left: 70px; padding: 10px 0; width: 760px; }
+#divAskAProBody p { clear: both; margin-bottom: 20px; line-height: 19px; }
+#asktheproDesc { clear: both; margin-bottom: 20px; font-weight: bold; line-height: 19px; }
+#asktheproBtns { clear: both; margin-bottom: 20px; padding-left: 30px; height: 71px; }
+#asktheproBtns a { display: block; float: left; margin: 0 35px; width: 165px; height: 71px; cursor: pointer; }
+#AskTheDoctor { background-image: url(Images/AskTheDoctor.jpg); }
+#AskTheDietician { background-image: url(Images/AskTheDietician.jpg); }
+#AskTheFitnessExpert { background-image: url(Images/AskTheFitnessExpert.jpg); }
+#AskThePsychologist { background-image: url(Images/AskThePsychologist.jpg); }
+#asktheproForms { display: none; clear: both; margin-bottom: 20px; width: 760px; }
+#asktheproFoot { clear: both; color: #f00; font-weight: bold; }
+.cssAskPro { overflow: hidden; width: 760px; height: 235px; }

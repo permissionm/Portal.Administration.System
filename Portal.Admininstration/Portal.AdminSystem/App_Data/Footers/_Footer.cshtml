@@ -1,0 +1,77 @@
+﻿@using GlobalPortal.Models;
+@using GlobalPortal.sharptech;
+@{
+    SharpTechGlobalPortalServices db = new SharpTechGlobalPortalServices();
+
+    string s = Request.RawUrl.ToString();
+
+    int i = s.LastIndexOf("/") + 1;
+    string parmtr = s.Substring(i);
+
+    string alias = parmtr;
+    if (parmtr.Contains("?"))
+    {
+        string[] x = parmtr.Split('?');
+        alias = x[0].ToString();
+    }
+
+    PortalMembers obj = new PortalMembers();
+
+    int clientID = 0;
+    if (Session["clientID"] != null)
+    {
+        clientID = Convert.ToInt32(Session["clientID"].ToString());
+    }
+    else
+    {
+        clientID = obj.GetClientIdByDisplayName(alias);
+    }
+
+    string domain = db.Getdomain(clientID);
+    string unsubLink = domain + "Unsubscribe/Unsubscribe.aspx?c=" + clientID + "&langid=1"; // +iLangId;
+
+    ViewBag.emailTo = "mailto:qa@healthinsite.net?subject=Please help&body=Type here.";
+    //ViewBag.vbBtnHelp = "~/PopUpPages/Faq?languageID=1&clientID=" + clientID + "&placefrom=footer";
+    ViewBag.vbBtnDisclaim = "~/PopUpPages/Disclaimer?languageID=1&clientID=" + clientID + "&placefrom=footer";
+    ViewBag.vbBtnPrivacy = "~/PopUpPages/PrivacyPolicy?languageID=1&clientID=" + clientID + "&placefrom=footer";
+}
+<ul id="ulFooter">
+    @*<li>
+        <a href='@unsubLink'>Unsubscribe</a>
+    </li>
+    <li>
+        <a class="lnkSeperator">|</a>
+    </li>*@
+    <li>
+        <a href="@Url.Content(ViewBag.vbBtnPrivacy)" class="fancyPOP">Privacy Policy</a>
+    </li>
+    <li>
+        <a class="lnkSeperator">|</a>
+    </li>
+    <li>
+        <a href="@ViewBag.emailTo">Contact Us</a>
+    </li>
+    <li>
+        <a class="lnkSeperator">|</a>
+    </li>
+    <li>
+        <a href="@Url.Content(ViewBag.vbBtnDisclaim)" class="fancyPOP">Disclaimer</a>
+    </li>
+</ul>
+<script type="text/javascript">
+    function getFormElement(id) {
+	    if (document.getElementById) {
+		    return document.getElementById(id);
+	    }
+	    else if (document.all) {
+		    return window.document.all[id];
+	    }
+	    else if (document.layers) {
+		    return window.document.layers[id];
+	    }
+    }
+    var footObj = getFormElement( "ulFooter" );
+    var divfootWidth = footObj.offsetWidth;
+    var footLeftMargin = ((880 - divfootWidth) / 2);
+    footObj.style.marginLeft = footLeftMargin + "px";
+</script>

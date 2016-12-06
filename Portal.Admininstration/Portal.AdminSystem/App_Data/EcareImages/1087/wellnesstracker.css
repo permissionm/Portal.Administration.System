@@ -1,0 +1,44 @@
+﻿.onelinePointsWrap { clear: both; padding: 0 15px; width: 880px; height: 35px; background-color: #333333; }
+.onelinePointsWrap div { float: left; }
+.onelinePointsWrap div div { float: left; color: #e5e2e2; font-weight: bold; line-height: 35px; }
+.onelinePointsWrap div a { float: left; margin-left: 5px; color: #00ff21; font-weight: bold; line-height: 35px; }
+.onelinePointsDescription { margin-left: 25px; }
+#welltrackWrap { padding-bottom: 15px; width: 910px; }
+#tblWellnessTrack { width: 100%; border: 0; }
+#tblWellnessTrack td { width: 50%; vertical-align: top; }
+.subhead { clear: both; margin-bottom: 10px; padding: 0 15px; height: 35px; border-radius: 5px; background-color: #333333; color: #FFF; font-weight: bold; line-height: 35px; }
+.txtHeader { clear: both; margin: 5px 0; color: #003366; font-weight: bold; line-height: 19px; }
+.txtHeader2 { clear: both; margin: 5px 0; line-height: 19px; }
+.txtTrackText { clear: both; margin: 5px 0; line-height: 19px; }
+.txtTrackText .fancyPOPCalc { vertical-align: top; text-decoration: underline; }
+.txtTrackInputWrap { clear: both; margin: 5px 0 10px 0; line-height: 26px; }
+.clstrackLbl { float: left; margin-bottom: 5px; width: 395px; line-height: 19px; }
+.clstrackInput { float: left; }
+#wellnstrackSelect { float: left; margin-right: 5px; padding: 5px; width: 436px; border: 2px solid #CCCCCC; border-radius: 5px; }
+.seltrackBody { padding: 5px 20px 10px 20px; width: 396px; height: 380px; }
+.seltrackBody ul { margin: 0; }
+.seltrackBody ul li { padding: 2px 0; line-height: 19px; }
+.seltrackBody ul li input { margin-right: 3px; }
+#ulCurrTrack { margin-bottom: 10px; }
+#selectBody .txtHeader { text-decoration: underline; }
+.seltrackDesc { margin-bottom: 5px; line-height: 19px; }
+#trackSubmit { display: block; margin: 5px 0 5px 180px; width: 100px; height: 30px; background-image: url(Images/SubmitButton.png); }
+#wellnstrackTrack { float: left; margin-left: 5px; padding: 5px; width: 436px; border: 2px solid #CCCCCC; border-radius: 5px; }
+#wellnstrackView { clear: both; margin-top: 20px; padding: 5px; border: 2px solid #CCCCCC; border-radius: 5px; }
+.viewBody { padding: 0 0 5px 0; width: 895px; }
+#viewLeft { position: relative; float: left; padding: 10px 15px 0 0; width: 615px; }
+#viewLeft .txtHeader2 { margin: 0 0 10px 0; text-align: center; }
+#welltrackGraphWrap { text-align: center; line-height: 20px; }
+#welltrackGraph { width: 595px; }
+#graphPeriodWrap { position: absolute; top: 0; left: 185px; width: 270px; }
+#graphPeriodText { float: left; width: 145px; line-height: 19px; }
+#selGraphPeriod { float: left; width: 125px; height: 19px; }
+#selGraphPeriod option { padding: 0 5px; height: 19px; line-height: 19px; }
+#viewRight { float: left; padding: 5px 5px 0 0; width: 260px; }
+#viewRight .txtHeader { margin: 0 0 10px 0; }
+#viewRight ul li { list-style-type: disc; line-height: 19px; }
+#viewRight ul li a { vertical-align: top; text-decoration: underline; }
+.clrBoth { clear: both; margin: 0; padding: 0; width: 100%; height: 0; line-height: 0; }
+.errMsg { clear: both; padding-right: 98px; height: 19px; color: #FF0000; font-weight: bold; line-height: 19px; }
+.hideErrMsg { display: none; visibility: hidden; }
+.showErrMsg { display: block; }

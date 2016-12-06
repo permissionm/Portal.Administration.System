@@ -1,0 +1,57 @@
+﻿@model Portal.AdminSystem.Models.ExecMemberRegisterModel
+
+@{
+    ViewBag.Title = "Update Member";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div class="Container2">
+            <div class="left">
+                <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+                <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+            </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+        <hr class="exechr" />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+        @Html.HiddenFor(model => model.MemberID)
+            @Html.HiddenFor(model => model.ExecPackageID)
+            @Html.HiddenFor(model => model.EntryDate)
+            @Html.HiddenFor(model => model.CostCenterNumber)
+            @Html.HiddenFor(model => model.BranchCode)
+            @Html.HiddenFor(model => model.EmployeeNumber)
+        <div class="form-group greyPortal">
+            @Html.LabelFor(model => model.StatusID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StatusID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.StatusID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group greyPortal">
+            @Html.LabelFor(model => model.ExecRegionID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ExecRegionID, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ExecRegionID, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Update" class="portalbtn btn-default" />
+                <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("ExecMemberSearch")'; " />
+            </div>
+        </div>
+    </div>
+        </div>
+}
+<br />

@@ -1,0 +1,25 @@
+﻿input[type="submit"] { margin-left: 15px; width: 100px; height: 30px; background-image: url(Images/SubmitButton.png); line-height: 30px; }
+#inpKeywords { float: left !important; margin-bottom: 10px; }
+#btnKeywords { float: left !important; margin-bottom: 10px; }
+#cntntInnerEncyclopaedia { background-color: #FFF; }
+#cntntInnerEncyclopaedia .toolboxWrap { float: none; margin: 0 auto 15px auto; width: 650px; }
+#encycloSearch { margin: 15px 0; width: 910px; }
+#encycloSearch .curvemid { padding: 0; width: 910px; background-image: url(Images/curve_mid_910.png); }
+#encycloSearchBody .curveSolidWrap { margin: 0 0 15px 10px; width: 890px; }
+#encycloSearchBody .curveSolidWrap .curveSolid39Mid { padding: 0; width: 870px; }
+.encheading { clear: both; margin: 0 20px; font-weight: bold; }
+.encDescription { clear: both; margin: 0 20px; }
+.encDescription p { margin: 15px 0; line-height: 19px; }
+#frmEncycloSearch { margin: 0 20px 20px 20px; width: 870px; }
+.alphabetWrap { margin: 0 20px; }
+.alfabetical { font-weight: bold; cursor: pointer; }
+#encycloResult { clear: both; margin-top: 15px; width: 910px; }
+#encycloResult .curveSolidWrap { margin: 0 10px 15px 10px; width: 890px; }
+#encycloResult .curveSolidWrap .curveSolid39Mid { margin: 0; width: 870px; }
+#encycloResult p { margin: 0 20px; line-height: 19px; }
+#encycloResultBody { margin: 10px 20px 5px 20px; min-height: 1px; width: 870px; }
+.encycResultInfo { margin-bottom: 10px; color: #003366; font-weight: bold; line-height: 19px; }
+#encycloResultBody ul { margin: 0; width: 870px; }
+#encycloResultBody ul li { padding: 3px 0; }
+#encycloResultBody ul li a { font-weight: bold; line-height: 19px; }
+#encycloResultBody ul li a:hover { text-decoration: underline; }

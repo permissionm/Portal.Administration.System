@@ -1,0 +1,45 @@
+﻿@model Portal.AdminSystem.Models.ClientPage
+
+@{
+    ViewBag.Title = "Update Client Page";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div class="Container2">
+            <div class="left">
+                <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+                <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+            </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+            <hr class="portalhr" />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.ClientSettingID)
+            @Html.HiddenFor(model => model.ClientID)
+       
+            <div class="form-group greyPortal">
+                @Html.LabelFor(model => model.PageTemplateType_LinkID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.PageTemplateType_LinkID, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.PageTemplateType_LinkID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Update" class="portalbtn btn-default" />
+                    <input type="button" id="cancel" value="Cancel" class="portalbtn btn-default" onclick="location.href='@Url.Action("Index","Home")'; " />       
+                    <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("SearchPage")'; " />
+                </div>
+            </div>
+        </div>
+        </div>
+}
+<br />

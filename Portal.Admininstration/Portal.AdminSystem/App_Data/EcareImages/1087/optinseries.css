@@ -1,0 +1,13 @@
+﻿#subscribeWrap { margin: 20px 0 10px 0; width: 910px; }
+#subscribeWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#subscribeWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#subscribeWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#subscribeBody { padding: 0 15px; width: 870px; }
+#subscribeBody h4 { margin-bottom: 15px; }
+#subscribeBody p { margin-bottom: 15px; }
+#availTopicsWrap { margin: 20px 0 10px 0; width: 910px; }
+#availTopicsWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#availTopicsWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#availTopicsWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#availTopicsBody { overflow: hidden; padding: 0 15px; width: 870px; height: 500px; }
+.clsOptInSeries { overflow-x: hidden; margin: 0; padding: 0; width: 870px; height: 500px; border: 0; }

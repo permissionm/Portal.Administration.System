@@ -1,0 +1,26 @@
+﻿#toolboxWrap { margin-bottom: 2px; }
+#pointsSummaryWrap { margin-bottom: 10px; }
+/* start for me first */
+#cntntInnerForMeFirst { margin: 0; width: 910px; }
+#ForMeFirstWrap { margin-bottom: 15px; width: 910px; }
+#ForMeFirstWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#ForMeFirstWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#ForMeFirstWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+.ForMeFirstBody { padding: 0 15px; width: 870px; }
+.ForMeFirstBody h4 { margin-bottom: 15px; }
+.ForMeFirstBody p { margin-bottom: 15px; }
+.ForMeFirstBody ul { margin: 15px 0; width: 870px; }
+.ForMeFirstBody ul li { padding: 5px 0; width: 870px; }
+.toolboxbtnFirst { float: left; margin: 0; padding: 0; width: 60px; height: 66px; }
+.tbbtnImgFirst { margin: 0; padding: 0; width: 60px; height: 66px; }
+.tbbtnTextWrap { float: left; padding: 10px 100px 0 15px; width: 695px; line-height: 19px; }
+.tbbtnTextWrap a { color: #003366; vertical-align: top; font-weight: bold; line-height: 18px; }
+.galleryLinkHead { margin-bottom: 15px; color: #003366; font-weight: bold; line-height: 19px; }
+/* /end for me first */
+/* start where to start */
+#WhereToStartWrap { position: relative; margin-bottom: 15px; width: 910px; }
+#WhereToStartWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+.WhereToStartBody { padding: 0 15px; width: 870px; }
+.WhereToStartBody h4 { margin-bottom: 15px; color: #003366; }
+.WhereToStartBody p { margin-bottom: 15px; }
+/* /end where to start */

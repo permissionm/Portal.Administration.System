@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Portal.AdminSystem.Models.ExecPackageAppointment>
+
+@{
+    ViewBag.Title = "Active Package Appointment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="exechr" />
+        <table class="table">
+            <tr class="redPortal">
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TypeText)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.MinutesOfAppointment)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.zOrder)
+                </th>
+
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TypeText)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MinutesOfAppointment)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.zOrder)
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+<br />

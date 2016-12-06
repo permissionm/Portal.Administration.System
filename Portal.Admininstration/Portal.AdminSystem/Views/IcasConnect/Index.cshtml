@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Portal.AdminSystem.Models.IcasConnect>
+
+@{
+    ViewBag.Title = "Icas Connect PDF";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4><strong>Icas Connect PDF List</strong></h4>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientListID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PDFName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientListID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ClientName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PDFName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>   
+    
+    <td>
+     
+    </td>
+        </tr>
+}
+</table>

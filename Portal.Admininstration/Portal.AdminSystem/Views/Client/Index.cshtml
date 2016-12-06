@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Portal.AdminSystem.Models.ClientModel>
+
+@{
+    ViewBag.Title = "All Clients";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="Container2">
+
+    <div class="left">
+        <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="portalhr" />
+    <table class="table">
+        <tr class="redPortal">
+            <th>
+                @Html.DisplayNameFor(model => model.ClientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Active)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClientMailAlias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DisplayName)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClientName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Active)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClientMailAlias)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DisplayName)
+                </td>       
+            </tr>
+        }
+    </table>
+    </div>
+<br />

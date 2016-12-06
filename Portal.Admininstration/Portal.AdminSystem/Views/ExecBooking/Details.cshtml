@@ -1,0 +1,81 @@
+﻿@model Portal.AdminSystem.Models.ExecBookingModel
+
+@{
+    ViewBag.Title = "Booking Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="exechr" />
+    <dl class="dl-horizontal">
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Subject)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.StartDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDateTime)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.EndDateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDateTime)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Label)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Label)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ResourceID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResourceID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.MemberID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MemberID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Deleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Deleted)
+        </dd>
+
+    </dl>
+    <p>
+        <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("BookingSearch")'; " />
+    </p>
+</div>
+<br />

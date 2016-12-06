@@ -1,0 +1,66 @@
+﻿#cntntInnerCompetitions { margin: 10px 0 10px 0; width: 910px; }
+#CompetitionsLinks { margin-bottom: 15px; width: 910px; }
+#CompetitionsLinks a { display: block; float: left; margin-left: 3px; width: 910px; height: 210px; }
+#CompetitionsLinks a img { display: block; width: 910px; height: 210px; }
+#CompetitionsWrap { clear: both; width: 910px; }
+.compCategoryWrap { margin: 20px 0 10px 0; width: 910px; }
+.compCategoryWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+.compCategoryWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+.compCategoryWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+.compCategoryBody { padding: 0 15px; width: 870px; }
+.compCategoryBody h4 { margin-bottom: 15px; }
+.compCategoryBody p { margin-bottom: 15px; }
+.compCategoryBody ul { margin: 0 0 15px 0; }
+.compCatLinkHead { margin-bottom: 15px; color: #003366; font-weight: bold; line-height: 19px; }
+#QuarterWrap { display: none; }
+#MonthWrap { display: none; }
+#WellnessPointsWrap { display: none; }
+
+.slider_content { position: relative; }
+.cntntImage { display: block; float: left; margin-right: 10px; width: 133px; }
+.slider_content label { display: block; margin-bottom: 10px; }
+.slidercontent_inner { float: left; width: 509px; word-spacing: 1px; }
+.slidercontent_inner ul, .slidercontent_inner ol { margin-left: 10px; }
+.slidercontent_innerAll { position: relative; float: left; width: 467px; word-spacing: 1px; }
+.slidercontent_innerAll ul, .slidercontent_innerAll ol { margin-bottom: 20px; }
+.slidercontent_innerAll ul li { margin-left: 10px; list-style-position: outside; list-style-type: disc; line-height: 17px; }
+.slidercontent_innerAll ol li { margin-left: 10px; list-style-position: outside; list-style-type: decimal; line-height: 17px; }
+.slidercontent_inner h1 { color: #999; font-size: 18px; }
+.slidercontent_innerAll h1 { color: #999; font-size: 18px; }
+.slidercontent_inner img { margin: 10px 20px; height: 100px; background-color: transparent; color: #737373; }
+.slidercontent_innerAll img { margin: 10px 20px; height: 100px; background-color: transparent; color: #737373; }
+.slidercontent_inner strong, .slidercontent_inner font strong, strong u span { vertical-align: baseline; font-weight: bold; line-height: 17px; }
+.slidercontent_innerAll strong, .slidercontent_innerAll font strong, strong u span { font-weight: bold; }
+.slidercontent_innerVCI { position: relative; float: left; width: 596px; word-spacing: 1px; }
+.slider_content table tr td { padding: 5px; vertical-align: top; }
+.slider_content table tr td img { margin-top: 15px; }
+.slider_content p { margin-bottom: 10px; }
+#contentBoxWrap { float: left; margin-bottom: 15px; min-height: 300px; width: 664px; }
+#contentBoxWrapInner { width: 664px; }
+#contentBoxWrap .curve607top, #contentBoxWrap .curve607btm { width: 664px; }
+#contentBox { position: relative; padding: 5px 10px; background-image: url(Images/curve_mid_664.png); background-repeat: repeat-y; }
+.slider_contentbox, #contentToPrint { width: 740px; }
+#contentToPrint { margin: 0 auto; }
+.slider_contentboxAll { width: 854px; }
+.slider_contentclose { position: absolute; top: 0; right: 0; cursor: pointer; }
+.slider_contentclose img { width: 20px; height: 20px; }
+.clrBoth { clear: both; width: 100%; height: 0; line-height: 0; }
+.claimLink { display: inline-block; margin-left: 135px; width: 180px; height: 28px; background-image: url(Images/claim_points.gif); color: #FFF; text-align: center; font-weight: bold; line-height: 28px; }
+.claimLink:hover { color: #FFF; }
+.artklClaimLnk { float: right; margin: 0 20px 10px 0; }
+.artklClaimLnk img { display: block; width: 30px; height: 30px; }
+.errorheaderText { padding: 10px 0; width: 100%; color: #F2850C; text-align: center; font-weight: bold; font-size: 15px; line-height: 20px; }
+.slider_contentbox ul, .slider_contentbox ol { margin-bottom: 10px; }
+.slider_contentbox ul li, .slider_contentbox ol li { margin-left: 10px; list-style-position: outside; line-height: 19px !important; }
+.slider_contentbox ul li { list-style-type: disc; }
+.slider_contentbox ol li { list-style-type: decimal; }
+.slider_contentbox ul li strong, .slider_contentbox ol li strong { vertical-align: baseline; line-height: 19px; }
+.slider_contentbox ul li em, .slider_contentbox ol li em { vertical-align: baseline; }
+.slidercontent_innerVCI ul, .slidercontent_innerVCI ol { margin-bottom: 10px; }
+.slidercontent_innerVCI ul li, .slidercontent_innerVCI ol li { margin-left: 10px; list-style-position: outside; line-height: 19px !important; }
+.slidercontent_innerVCI ul li { list-style-type: disc; }
+.slidercontent_innerVCI ol li { list-style-type: decimal; }
+.slidercontent_innerVCI ul li strong, .slidercontent_innerVCI ol li strong { vertical-align: baseline; line-height: 19px; }
+.slidercontent_innerVCI ul li span, .slidercontent_innerVCI ol li span { vertical-align: baseline; }
+.slidercontent_btmwrap { margin: 10px auto; width: 740px; }
+.lnkCopyright { height: 20px; color: #999; font-weight: bold; font-style: italic; font-size: 12px; line-height: 20px; text-align: right; }

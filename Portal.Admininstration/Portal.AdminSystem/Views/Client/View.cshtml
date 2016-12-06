@@ -1,0 +1,98 @@
+﻿@model Portal.AdminSystem.Models.ClientModel
+
+@{
+    ViewBag.Title = "View";
+}
+
+<h2>View</h2>
+
+<div>
+    <h4>ClientModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientMailAlias)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientMailAlias)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClientMailFromAddr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientMailFromAddr)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HelpURL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HelpURL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SiteType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SiteType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisplayName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisplayName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UseCDN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UseCDN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.WelcomeSubject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.WelcomeSubject)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

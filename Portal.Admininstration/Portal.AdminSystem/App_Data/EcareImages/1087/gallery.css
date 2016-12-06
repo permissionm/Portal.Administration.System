@@ -1,0 +1,14 @@
+﻿#cntntInnerGallery { margin: 10px 0 10px 0; width: 910px; }
+#CompetitionsLinks { margin-bottom: 15px; width: 910px; }
+#CompetitionsLinks a { display: block; float: left; margin-left: 3px; width: 300px; height: 210px; }
+#CompetitionsLinks a img { display: block; width: 300px; height: 210px; }
+#CompetitionsWrap { clear: both; width: 910px; }
+#GalleryWrap { margin: 20px 0 10px 0; width: 910px; }
+#GalleryWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#GalleryWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#GalleryWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+.GalleryBody { padding: 0 15px; width: 870px; }
+.GalleryBody h4 { margin-bottom: 15px; }
+.GalleryBody p { margin-bottom: 15px; }
+.GalleryBody ul { margin: 0 0 15px 0; }
+.galleryLinkHead { margin-bottom: 15px; color: #003366; font-weight: bold; line-height: 19px; }

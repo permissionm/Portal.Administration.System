@@ -1,0 +1,10 @@
+﻿#cntntInnerCalculatorsQuizzes { background-color: #FFF; }
+#calculatorsWrap, #quizzesWrap { float: left; margin: 15px 0; width: 450px; }
+#calculatorsWrap .curve443top, #calculatorsWrap .curve443btm, #quizzesWrap .curve443top, #quizzesWrap .curve443btm { width: 450px; }
+#calculatorsWrap .curvemid, #quizzesWrap .curvemid { padding: 0 10px; width: 430px; background-image: url(Images/curve_mid_450.png); }
+#calculatorsBodyWrap, #quizzesBodyWrap { width: 430px; }
+#calculatorsBodyWrap .curveSolidWrap, #quizzesBodyWrap .curveSolidWrap { margin-bottom: 10px; width: 430px; }
+#calculatorsBodyWrap .curveSolidWrap .curveSolid39Mid, #quizzesBodyWrap .curveSolidWrap .curveSolid39Mid { width: 405px; }
+#quizzesWrap { margin-left: 10px; }
+#calculatorsBody, #quizzesBody { padding: 5px 15px; min-height: 495px; width: 400px; }
+.cssCalculators, .cssQuizzes { overflow: hidden; height: 495px; width: 399px; }

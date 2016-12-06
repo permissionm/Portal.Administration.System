@@ -1,0 +1,72 @@
+﻿@model Portal.AdminSystem.Models.UsergroupSearch
+@using GridMvc.Html
+@{
+    ViewBag.Title = "Search Usergroups";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+   
+    <div class="form-horizontal">
+        <div class="Container2">
+            <div class="left">
+                <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+                <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+            </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+            <hr class="portalhr" />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group greyPortal">
+            @Html.LabelFor(model => model.SearchDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SearchDescription, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SearchDescription, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="portalbtn btn-default" />
+                <input type="button" id="cancel" value="Cancel" class="portalbtn btn-default" onclick="location.href='@Url.Action("Index","Home")'; " />
+                <input type="button" value="New Usergroup" class="portalbtn btn-default" onclick="location.href='@Url.Action("Create","Usergroups")'; " />
+            </div>
+        </div>
+    </div>
+        <div></div></div>
+    <div class="Container2">
+        @Html.Grid(Model.UsergroupResults).Columns(columns =>
+   {
+       columns.Add(m => m.UsergroupID)
+       .Titled("")
+       .Sanitized(false)
+       .Encoded(false)
+       .RenderValueAs(u =>
+                    @<strong>
+                        @Html.ActionLink("View", "Details", new { id = u.UsergroupID }) |
+                        @Html.ActionLink("Update", "Edit", new { id = u.UsergroupID })
+                    </strong>);
+       columns.Add(c => c.Description).Titled("Description");
+       columns.Add(c => c.UsergroupUsageID).Titled("Usergroup UsageID");
+       columns.Add(c => c.Priority).Titled("Priority");
+
+   }).WithPaging(50).Sortable(false).Selectable(true)
+    </div>
+}
+<br>
+<script>
+
+    $(function () {
+        pageGrids.ordersGrid.onRowSelect(function (e) {
+            alert(e.row.UsergroupID);
+        });
+    });
+</script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

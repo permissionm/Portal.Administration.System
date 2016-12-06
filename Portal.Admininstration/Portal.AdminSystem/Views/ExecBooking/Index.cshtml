@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Portal.AdminSystem.Models.ExecBookingModel>
+
+@{
+    ViewBag.Title = "Future Bookings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="exechr" />
+    <table class="table">
+        <tr class="redPortal" >
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDateTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MemberID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deleted)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDateTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MemberID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Deleted)
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+<br />

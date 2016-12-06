@@ -1,0 +1,8 @@
+﻿#cntntInnerMediaCentre { margin: 10px 0 10px 0; width: 910px; padding: 0 55px; }
+#MediaCentreWrap { margin: 20px 0 10px 0; width: 910px; }
+#MediaCentreWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#MediaCentreWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#MediaCentreWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+.MediaCentreBody { padding: 0 10px; width: 880px; background-color: #FFF; }
+.MediaCentreBody p { margin: 10px 0; padding: 0 10px; }
+#ifMediaCentre { overflow: hidden; /*margin: 0 0 15px 0;*/ width: 800px; height: 650px; }

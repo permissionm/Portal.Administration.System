@@ -1,0 +1,71 @@
+﻿@model Portal.AdminSystem.Models.IcasConnectSearch
+@using GridMvc.Html
+@{
+    ViewBag.Title = "Search Icas Connect PDF";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+     <div class="Container2">
+         <div class="left">
+             <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+             <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+         </div>
+         <p class="right">
+             <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+         </p>
+         <br />
+         <br />
+            <hr class="portalhr" />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group greyPortal">
+            @Html.LabelFor(model => model.SearchClientname, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SearchClientname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SearchClientname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group greyPortal">
+            @Html.LabelFor(model => model.SearchPDFName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SearchPDFName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SearchPDFName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="portalbtn redPortal btn-default" />
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="Container2">
+        @Html.Grid(Model.IcasConnectResults).Columns(columns =>
+   {
+       columns.Add(m => m.ClientID)
+         .Titled("")
+       .Sanitized(false)
+       .Encoded(false);
+       columns.Add(c => c.ClientName).Titled("Client Name");
+       columns.Add(c => c.PDFName).Titled("PDF Name");
+   }).WithPaging(50).Sortable(false).Selectable(true)
+  </div>
+}
+<br />
+<script>
+
+    $(function () {
+        pageGrids.ordersGrid.onRowSelect(function (e) {
+            alert(e.row.ClientID);
+        });
+    });
+</script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Portal.AdminSystem.Models.UsergroupsModel>
+
+@{
+    ViewBag.Title = "Usegroups List";
+}
+
+<h4>User Groups</h4>
+<p>
+    @Html.ActionLink("Add Usergroup", "Create") |
+    @Html.ActionLink("Search Usergroup", "SearchUsergroup")
+</p>
+<br />
+<table class="table">
+    <tr>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Priority)
+        </th>
+      
+        <th>
+            @Html.DisplayNameFor(model => model.UsergroupUsageID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReportingLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ParentID)
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.LookupValueID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Priority)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.UsergroupUsageID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReportingLevel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ParentID)
+        </td>
+      
+        <td>
+            @Html.DisplayFor(modelItem => item.LookupValueID)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.UsergroupID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.UsergroupID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.UsergroupID })
+        </td>
+    </tr>
+}
+</table>

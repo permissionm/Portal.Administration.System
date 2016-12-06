@@ -1,0 +1,89 @@
+﻿@model Portal.AdminSystem.Models.ExecMemberRegisterModel
+
+@{
+    ViewBag.Title = "Member Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="exechr" />
+    <dl class="dl-horizontal">
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.MemberID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MemberID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.StatusID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StatusID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecPackageID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecPackageID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.EntryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EntryDate)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecRegionID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecRegionID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.CostCenterNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CostCenterNumber)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.BranchCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BranchCode)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.EmployeeNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeNumber)
+        </dd>
+
+    </dl>
+    <p>
+        <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("ExecMemberSearch")'; " />
+    </p>
+</div>
+<br />

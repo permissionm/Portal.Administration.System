@@ -1,0 +1,80 @@
+﻿@model Portal.AdminSystem.Models.UsergroupsModel
+
+@{
+    ViewBag.Title = "Usergroup Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <div class="Container2">
+        <div class="left">
+            <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+            <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+        </div>
+        <p class="right">
+            <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+        </p>
+        <br />
+        <br />
+        <hr class="portalhr" />
+        <dl class="dl-horizontal">
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.UsergroupID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UsergroupID)
+            </dd>
+
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.Priority)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Priority)
+            </dd>
+
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.UsergroupUsageID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.UsergroupUsageID)
+            </dd>
+
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.ReportingLevel)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ReportingLevel)
+            </dd>
+
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.ParentID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ParentID)
+            </dd>
+
+            <dt class="greyPortal">
+                @Html.DisplayNameFor(model => model.LookupValueID)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LookupValueID)
+            </dd>
+
+        </dl>
+        <p>
+            <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("SearchUsergroup")'; " />
+        </p>
+    </div>
+<br />

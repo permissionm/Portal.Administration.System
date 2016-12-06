@@ -1,0 +1,68 @@
+﻿@using Portal.AdminSystem.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+    @Styles.Render("~/Content/PortalSheet.css")
+}
+
+<div class="row">
+        <div class="Container2">
+            <p class="ecareHead">           
+                <div class="left">
+                    <img src="~/Images/Execcare.png" width:"100%"style="display: block;" /> <strong class="redPortal">|</strong>
+                    <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+                    <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+                </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+            <hr class="portalhr"/>
+            <section id="loginForm">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                    @Html.AntiForgeryToken()
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group greyPortal">
+                            @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group greyPortal">
+                            @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                            <div class="col-md-10">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <div class="checkbox">
+                                    @Html.CheckBoxFor(m => m.RememberMe)
+                                    @Html.LabelFor(m => m.RememberMe)
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Log in" class="portalbtn btn-default" />
+                                <input type="button" value="Reset" id="Reset" class="portalbtn btn-default" />
+                            </div>
+                        </div>
+                        }
+</section>
+        </div>
+</div>
+<br />
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+    $("#Reset").click(function (event) {
+        $("#Email").val("");
+        $("#Password").val("");
+    });
+</script>

@@ -1,0 +1,52 @@
+﻿@model Portal.AdminSystem.Models.UsergroupsModel
+
+@{
+    ViewBag.Title = "Update Usergroup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <div class="Container2">
+            <div class="left">
+                <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+                <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+            </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+            <hr class="portalhr" />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.UsergroupID)
+            @Html.HiddenFor(model => model.Priority)
+            @Html.HiddenFor(model => model.UsergroupUsageID)
+            @Html.HiddenFor(model => model.ReportingLevel)
+            @Html.HiddenFor(model => model.ParentID)
+            @Html.HiddenFor(model => model.LookupValueID)
+
+            <div class="form-group greyPortal">
+                @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Submit" class="portalbtn btn-default" />
+                    <input type="button" id="cancel" value="Cancel" class="portalbtn btn-default" onclick="location.href='@Url.Action("Index","Home")'; " />
+                    <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("SearchUsergroup")'; " />
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+        </div>
+}
+<br />

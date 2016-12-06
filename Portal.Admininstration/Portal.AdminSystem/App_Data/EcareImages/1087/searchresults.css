@@ -1,0 +1,12 @@
+﻿#cntntInnerSearchResults { margin: 10px 0 10px 0; width: 910px; }
+#SearchResultsWrap { margin: 20px 0 10px 0; width: 910px; }
+#SearchResultsWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#SearchResultsWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#SearchResultsWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+.SearchResultsBody { padding: 0 15px; width: 860px; background-color: #FFF; }
+.SearchResultsBody table { margin: 10px 0; width: 860px; }
+.SearchResultsBody table tr td { vertical-align: top; }
+.resultID { padding: 2px 5px 2px 0; width: 5px; text-align: left; font-size: 17px; line-height: 21px; }
+.resultLink { padding: 2px 0; width: 425px; line-height: 21px; }
+.SearchResultsBody tr td a { display: block; width: 415px; line-height: 20px; }
+.SearchResultsBody tr td a:hover { text-decoration: underline; }

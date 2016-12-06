@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Portal Administration</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bootstrap.css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render("~/Content/PortalSheet.css")
+    @RenderSection("scripts", required: false)
+</head>
+
+<body>
+<div class="navbar navbar-inverse navbar-fixed-top Container3">
+            <div class="container" >
+                <div class="navbar-header PortalWhite">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("PortalAdministration", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                </div>
+                <div class="navbar-collapse collapse" id="MainMenu" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+@if (Request.IsAuthenticated)
+{
+                <li class="collapse-hidden">
+                  <ul class="nav navbar-nav collapse-hidden">
+                   <li class="dropdown">
+                      <a class="dropdown-toggle" style="margin-right: 5px; color:#FFFFFF" href="#" data-toggle="dropdown">Portal Client<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                              <li>@Html.ActionLink("Client List", "Index", "Client")</li>
+                               <li>@Html.ActionLink("Search Client", "ClientSearch", "Client")</li>            
+                               <li>@Html.ActionLink("Client Welcome", "SearchClient", "ClientWelcome")</li>               
+                               <li>@Html.ActionLink("Search IcasConnect", "SearchIcasConnect", "IcasConnect")</li>
+                            <li>@Html.ActionLink("Client Uploads", "GlobalQuiz", "PortalUploads")</li>  
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+
+                    <li class="collapse-hidden">
+                        <ul class="nav navbar-nav collapse-hidden">
+                             <li class="dropdown">
+                                 <a class="dropdown-toggle" style="margin-right: 5px; color: #FFFFFF;" href="#" data-toggle="dropdown">Usergroups<b class="caret"></b></a>
+                                 <ul class="dropdown-menu">
+                                     <li>@Html.ActionLink("Search Usergroup", "SearchUsergroup", "Usergroups")</li>
+                                     <li>@Html.ActionLink("Search Member", "MemberSearch", "Member")</li>  
+                                 </ul>
+                              </li>
+                            </ul>
+                        </li>
+
+                        <li class="collapse-hidden">
+                            <ul class="nav navbar-nav collapse-hidden">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" style="margin-right: 5px;color: #FFFFFF;" href="#" data-toggle="dropdown">Client Page<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">         
+                                        <li>@Html.ActionLink("Self Enrolment", "SearchPage", "ClientPage")</li>
+                                        <li>@Html.ActionLink("Welcome Subject", "SearchSubject", "WelcomeSubject")</li>      
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="collapse-hidden">
+                            <ul class="nav navbar-nav collapse-hidden">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" style="margin-right: 5px; color: #FFFFFF;" href="#" data-toggle="dropdown">Exec|Care<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>@Html.ActionLink("New ExecUser", "ExecUsers", "ExecUsers")</li>
+                                        <li>@Html.ActionLink(">>Users List", "Index", "ExecUsers")</li>
+                                        <li>@Html.ActionLink(">>Search User", "SearchExecUsers", "ExecUsers")</li>  
+                                        <li>@Html.ActionLink("Future Booking", "Index", "ExecBooking")</li>
+                                       <li>@Html.ActionLink(">>Search Booking", "BookingSearch", "ExecBooking")</li>
+                                       <li>@Html.ActionLink("Client Usergroup", "ExecClient", "ExecClientUsergroups")</li>
+                                       <li>@Html.ActionLink(">>Search Usergroup", "SearchExecClientUsergroup", "ExecClientUsergroups")</li>
+                                       <li>@Html.ActionLink(">>Client Usergroup List", "Index", "ExecClientUsergroups")</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="collapse-hidden">
+                            <ul class="nav navbar-nav collapse-hidden">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" style="margin-right: 5px; color: #FFFFFF;" href="#" data-toggle="dropdown">Exec Packages<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>@Html.ActionLink("Package", "Package", "ExecCarePackages")</li>
+                                        <li>@Html.ActionLink(">>Package List", "Index", "ExecCarePackages")</li>
+                                        <li>@Html.ActionLink(">>Search Package", "SearchPackages", "ExecCarePackages")</li>
+                                        <li>@Html.ActionLink("Package Appointment", "PackageAppointment", "ExecPackageAppointment")</li>    
+                                        <li>@Html.ActionLink("Appointment List", "Index", "ExecPackageAppointment")</li>                       
+                                        <li>@Html.ActionLink("Members", "ExecMemberSearch", "ExecMemberRegister")</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+}
+                    </ul>
+                    @Html.Partial("_LoginPartial")
+                </div>
+            </div>
+        </div>
+
+        <div class="container body-content">
+            @RenderBody()
+            <footer>
+                <p>&copy; @DateTime.Now.Year - <strong><font class="redPortal">Portal</font><font class="ecarePortal">Administration</font></strong></p>
+            </footer>
+    </div>
+ </body>
+</html>

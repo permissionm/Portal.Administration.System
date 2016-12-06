@@ -1,0 +1,13 @@
+.ui-accordion { width: 100%; }
+.ui-accordion .ui-accordion-header { cursor: pointer; position: relative; /*margin-top: 1px;*/ zoom: 1; }
+.ui-accordion .ui-accordion-li-fix { display: inline; }
+.ui-accordion .ui-accordion-header-active { border-bottom: 0 !important; }
+.ui-accordion .ui-accordion-header a { display: block; /*font-size: 10px; padding: 5px 5px 5px 7px;*/ }
+/*.ui-accordion-icons .ui-accordion-header a { padding-left: 20px; }*/
+.ui-accordion-icons .ui-accordion-header .topList { padding-left: 20px; width: 280px; }
+.ui-accordion-icons .ui-accordion-header .btnplusminus { width: 23px; height: 20px; }
+.ui-accordion-icons .ui-accordion-header .btnplus {  }
+.ui-accordion-icons .ui-accordion-header .btnminus {  }
+.ui-accordion .ui-accordion-header .ui-icon { position: absolute; left: .5px; top: 50%; margin-top: -8px; }
+.ui-accordion .ui-accordion-content { /*padding: 10px 20px; border-top: 0; margin-top: -2px;*/ position: relative; top: 1px; margin-bottom: 15px; overflow: auto; display: none; zoom: 1; }
+.ui-accordion .ui-accordion-content-active { display: block; }

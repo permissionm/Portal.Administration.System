@@ -1,0 +1,88 @@
+﻿/* start wellassess report */
+#WellAssesReport { float: left; margin-bottom: 10px; width: 618px; height: 510px; }
+#WellAssesReport .curve607top, #WellAssesReport .curve607btm { width: 618px; }
+#WellAssesReport .curvemid { padding: 0 5px; width: 608px; background-image: url(Images/curve_mid_618.png); }
+#WellAssesReport .curvemid .curveSolidWrap { width: 608px; }
+#WellAssesReport .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 583px; }
+.wellassesBody { width: 603px; height: 412px; }
+.cssWellAssess { overflow-x: hidden; width: 608px; height: 412px; }
+.wellassesFoot { display: block; color: #FFF; line-height: 39px; cursor: pointer; /*padding-left: 5px;*/ }
+.wellassesFoot:hover { text-decoration: underline; }
+.wafDisable { color: #999; text-decoration: none !important; }
+/* /end wellassess report */
+/* start recommendations */
+#Recommendations { position: relative; float: left; margin: 0 0 10px 8px; width: 283px; height: 510px; }
+#Recommendations .curve322top, #Recommendations .curve322btm { width: 283px; }
+#Recommendations .curvemid { padding: 0 10px; width: 263px; background-image: url(Images/curve_mid_283.png); }
+.recomBody { overflow: hidden; width: 263px; height: 490px; }
+#recomBodyInner { overflow: auto; margin: 0 auto; width: 245px; height: 490px; }
+#ifRecommendations { overflow-x: hidden; width: 245px; height: 490px; }
+/* /end recommendations */
+/* start active programs */
+#activeProgsWrap { margin-bottom: 10px; width: 910px; }
+#activeProgsWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#activeProgsWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#activeProgsWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#activeProgsBody { padding: 0 15px; width: 870px; }
+#activeProgsTracker, #activeProgsOptIn { float: left; min-height: 20px; }
+#activeProgsBody div p { clear: both; margin: 10px 0; line-height: 19px; }
+#activeProgsTracker { margin: 0 3px 10px 0; padding-right: 15px; width: 415px; border-right: 1px solid #CCC; }
+#activeProgsOptIn { margin: 0 0 10px 3px; padding-left: 15px; width: 415px; border-left: 1px solid #CCC; }
+#activeProgsTracker h4, #activeProgsOptIn h4 { width: 200px; float: left; }
+#activeProgsTracker .apTrackerFoot, #activeProgsOptIn .apTrackerFoot { width: 215px; float: left; }
+.apTrackerFoot, .apOptInFoot { margin-bottom: 10px; line-height: 19px; }
+.apTrackerFoot a, .apOptInFoot a { color: #003366; vertical-align: top; text-decoration: underline; font-weight: bold; line-height: 19px; cursor: pointer; }
+#tblAPTracker, #tblAPOptIn { width: 415px; }
+#activeProgsBody div table tr td, .apCollHead h4 { line-height: 25px; }
+#activeProgsBody div table tr td { padding-right: 15px; }
+#activeProgsBody div table tr td a { vertical-align: top; line-height: 25px; }
+.apCollMore a { color: #003366; text-decoration: underline; }
+#tblAPOptIn .apCollMore, #tblAPOptIn .apCollMore a { text-align: right; }
+.apCollHead { padding-bottom: 10px; }
+.apCollName { width: 115px; font-weight: bold; }
+.apCollDate { width: 175px; }
+.apCollLink a { text-decoration: underline; font-weight: bold; }
+.apCollProgress { color: #008000; text-align: center; }
+/* /end active programs */
+/* start healthbyte history */
+#healthbyteHistWrap { margin-bottom: 15px; width: 910px; }
+#healthbyteHistWrap .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#healthbyteHistWrap .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#healthbyteHistWrap .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#healthbyteHistBody { margin-bottom: 10px; padding: 0 15px; width: 870px; }
+.healthbyteHistHead { margin-bottom: 10px; font-weight: bold; line-height: 19px; }
+#healthbyteHistBody p { margin-bottom: 10px; line-height: 19px; }
+#ifHealthByteHist { min-height: 150px; width: 870px; }
+/* /end healthbyte history */
+/* start points layout */
+#pointsLayoutWrap { margin-bottom: 10px; width: 910px; }
+#pointsLayoutWrapInner { width: 910px; }
+#pointsLayoutWrapInner .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#pointsLayoutWrapInner .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#pointsLayoutWrapInner .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#pointsLayoutBody { margin-bottom: 10px; padding: 0 15px; width: 870px; }
+.ptsStageImage { float: left; margin-left: -10px; padding: 7px 10px 0 0; width: 200px; }
+.ptsStageImage a { display: block; width: 200px; height: 73px; }
+.ptsBlock { float: left; width: 132px; border-right: 2px solid #FFF; background-color: #EFE9E9; }
+.ptsBlock p { padding: 5px 0; height: 40px; text-align: center; font-weight: bold; line-height: 20px; }
+.ptsBlock div { clear: both; padding-bottom: 5px; width: 132px; height: 30px; text-align: center; line-height: 30px; }
+.ptsBlock div img { width: 33px; height: 30px; }
+/*#pointsLayoutWrap { margin-bottom: 10px; width: 910px; }
+#pointsLayoutWrapInner { width: 910px; }
+#pointsLayoutWrapInner .curvemid { padding: 0 5px; width: 900px; background-image: url(Images/curve_mid_910.png); }
+#pointsLayoutWrapInner .curvemid .curveSolidWrap { margin-bottom: 15px; width: 900px; }
+#pointsLayoutWrapInner .curvemid .curveSolidWrap .curveSolid39Mid { padding-left: 5px; width: 875px; }
+#pointsLayoutBody { margin-bottom: 10px; padding: 0 15px; width: 870px; }
+.divImage, .divTotal, .divTodayExpire, .divNextAverage { float: left; min-height: 40px; }
+.divImage { width: 220px; }
+.divImage div { margin: 0 10px; width: 200px; height: 73px; text-align: center; line-height: 38px; }
+.divTotal { width: 200px; }
+.divTotal a { margin-top: 18px; font-weight: bold; font-size: 18px; line-height: 30px; display: block; }
+.divTotal a:hover { text-decoration: underline; }
+.divTodayExpire { margin-top: 13px; width: 220px; height: 38px; font-weight: bold; }
+.divToday { font-weight: bold; line-height: 19px; }
+.divExpire { font-weight: bold; line-height: 19px; margin-top: 5px; }
+.divNextAverage { margin-top: 13px; width: 220px; height: 38px; }
+.divNext { font-weight: bold; line-height: 19px; }
+.divAverage { font-weight: bold; line-height: 19px; margin-top: 5px; }*/
+/* /end points layout */

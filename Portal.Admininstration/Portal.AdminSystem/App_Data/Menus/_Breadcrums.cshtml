@@ -1,0 +1,10 @@
+﻿<ul class="ulBreadcrums">
+    @ViewData["BreadCrums"]
+</ul>
+<div id="siteSearch">
+    @using (Html.BeginForm("SearchResults", "SearchResults", new { curPage = "Search Results" }, FormMethod.Post, new { id = "frmSearch" }))
+    {
+	    <input id="siteSearchBtn" name="siteSearchBtn" type="submit" value="" />
+	    <input id="searchKeywords" name="searchKeywords" type="text" />
+    }
+</div>

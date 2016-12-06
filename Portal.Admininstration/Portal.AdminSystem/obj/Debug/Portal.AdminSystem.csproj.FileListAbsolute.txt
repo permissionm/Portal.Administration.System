@@ -1,0 +1,168 @@
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\csc.exe
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\System.Collections.Immutable.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\vbc.exe
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\VBCSCompiler.exe
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\VBCSCompiler.exe.config
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.dll.config
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.pdb
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Antlr3.Runtime.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.SqlServer.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Google.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Web.Infrastructure.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Newtonsoft.Json.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Owin.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Helpers.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Mvc.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Optimization.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Razor.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Deployment.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Razor.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\WebGrease.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Helpers.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Mvc.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Optimization.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Razor.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Deployment.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Razor.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Antlr3.Runtime.pdb
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Newtonsoft.Json.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.SqlServer.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Google.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\obj\Debug\Portal.AdminSystem.dll
+c:\users\permissionm\documents\visual studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\obj\Debug\Portal.AdminSystem.pdb
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Dapper.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\HIS.Utilities.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Bson.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Driver.Core.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Driver.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Dapper.pdb
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Dapper.xml
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Bson.xml
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Driver.xml
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\GridMvc.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.Shared.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.Shared.pdb
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\obj\Debug\Portal.AdminSystem.csprojResolveAssemblyReference.cache
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\DotNetZip.dll
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\DotNetZip.xml
+C:\Users\PermissionM\Documents\Visual Studio 2015\Projects\Portal.Admininstration\Portal.AdminSystem\bin\ICSharpCode.SharpZipLib.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\csc.exe
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\vbc.exe
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\VBCSCompiler.exe
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.dll.config
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.pdb
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Antlr3.Runtime.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Dapper.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\DotNetZip.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.SqlServer.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\GridMvc.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\HIS.Utilities.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\ICSharpCode.SharpZipLib.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Bson.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Driver.Core.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Driver.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Newtonsoft.Json.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Owin.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.Shared.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Helpers.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Mvc.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Optimization.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Razor.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Deployment.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Razor.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\WebGrease.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Dapper.pdb
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Dapper.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\DotNetZip.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Bson.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\MongoDB.Driver.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Portal.AdminSystem.Shared.pdb
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Helpers.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Mvc.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Optimization.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.Razor.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Deployment.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\System.Web.WebPages.Razor.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Antlr3.Runtime.pdb
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Newtonsoft.Json.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\EntityFramework.SqlServer.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\obj\Debug\Portal.AdminSystem.csprojResolveAssemblyReference.cache
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\obj\Debug\Portal.AdminSystem.dll
+C:\PortalAdministration\Source\Portal.Admininstration\Portal.AdminSystem\obj\Debug\Portal.AdminSystem.pdb

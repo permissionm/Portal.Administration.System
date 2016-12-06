@@ -1,0 +1,50 @@
+﻿@model Portal.AdminSystem.Models.ClientPage
+
+@{
+    ViewBag.Title = "Client Page Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/ecare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="portalhr" />
+    <dl class="dl-horizontal">
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ClientSettingID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientSettingID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.PageTemplateType_LinkID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PageTemplateType_LinkID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ClientID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClientID)
+        </dd>
+
+    </dl>
+
+<p>
+    <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("SearchPage")'; " />
+</p>
+    </div>
+<br />

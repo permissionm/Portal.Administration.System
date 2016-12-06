@@ -1,0 +1,4 @@
+﻿.sliderkit_btnbg { filter: alpha(opacity=30); }
+.sliderkit-btn-disable { filter: alpha(opacity=30); }
+.sliderkit-nav-clip ul li a { filter: alpha(opacity=80); }
+.sliderkit-nav-clip ul li a:hover { filter: alpha(opacity=100); }

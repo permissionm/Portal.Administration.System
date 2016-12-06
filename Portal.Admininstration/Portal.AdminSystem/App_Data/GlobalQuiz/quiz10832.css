@@ -1,0 +1,224 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    color: #666;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, div, img, a {
+    display: block;
+}
+
+#pQuiz {
+    margin: 0 auto;
+    width: 399px;
+}
+
+.quizClass {
+    display: inline-block;
+    padding: 5px 0;
+    color: #6699CC;
+    line-height: 17px;
+}
+
+.quizWrap {
+    margin: 0 auto;
+    width: 550px;
+}
+
+#UpdatePanel1 {
+    width: 399px;
+}
+
+#headBanner {
+    margin-bottom: 15px;
+    width: 399px;
+}
+
+#quizWrap {
+    margin: 25px;
+}
+
+    #quizWrap li {
+        padding: 5px 0;
+        color: #333366;
+        list-style-type: decimal-leading-zero;
+        font-weight: bold;
+    }
+
+        #quizWrap li a {
+            color: #333366;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 19px;
+        }
+
+.Question {
+    color: #FFF; /*padding: 0 10px;*/
+    font-weight: bold;
+}
+
+.QuizTitle {
+    width: 399px;
+    color: #727272;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 21px;
+}
+
+    .QuizTitle td {
+        text-align: center;
+    }
+
+.AnswerHeading {
+    color: #727272;
+    font-weight: bold;
+}
+
+#lblQuizDescription {
+    font-weight: bold;
+}
+
+.WrongStatus {
+    color: Red;
+    font-weight: bold;
+}
+
+.overallResultsHeading {
+    color: #727272;
+    font-weight: bold;
+}
+
+.ProgressIndicator {
+    color: Red;
+}
+
+.Answer {
+}
+
+.overallResults {
+}
+
+.tdTop {
+    height: 6px;
+    background: transparent url(top463.gif) no-repeat;
+}
+
+.tdBottom {
+    width: 540px;
+    height: 16px;
+    background: transparent url(bottom463.gif) no-repeat;
+}
+
+.tdLeft {
+    width: 5px;
+    background: transparent url(middleleft.gif);
+}
+
+.tdRight {
+    width: 6px;
+    height: 16px;
+    background: transparent url(middleright.gif);
+}
+
+.tdContent {
+    padding: 0 10px; /*padding-left: 3px; padding-bottom: 3px; padding-right: 3px; padding-top: 1px;*/
+    background: transparent url(content463.gif) repeat;
+}
+
+.QuizDescription {
+    margin: 5px 0 10px 0;
+    padding: 5px 10px;
+    background-color: #ebebeb;
+}
+
+.button {
+    margin: 0;
+    padding-bottom: 1px;
+    width: 100px;
+    height: 29px;
+    border: 0;
+    background-color: #ffffff;
+    background-image: url(submt_btn463.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    line-height: 29px;
+}
+
+input[type="button"] {
+    margin: 0;
+    padding-bottom: 1px;
+    width: 100px;
+    height: 29px;
+    border: 0;
+    background-color: #ffffff;
+    background-image: url(submt_btn463.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    line-height: 29px;
+}
+
+#btnBack {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.buttonOver {
+    margin: 0;
+    padding-bottom: 1px;
+    width: 100px;
+    height: 29px;
+    border: 0;
+    background-color: #ffffff;
+    background-image: url(submt_btn463.png);
+    background-repeat: no-repeat;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    line-height: 29px;
+    cursor: pointer;
+}
+/*.buttonOver { margin: 0; padding-bottom: 2px; width: 76px; height: 26px; border: 0; background-color: #ffffff; background-image: url(Button.jpg); background-repeat: no-repeat; color: #FFF; text-align: center; font-weight: bold; line-height: 26px; }*/
+/*.buttonOver { width: 76px; height: 28px; border: 0px solid #ffffff; background-color: #ffffff; background-image: url(Button.jpg); background-repeat: no-repeat; color: #FFF; text-align: center; font-weight: bold; }*/
+.close {
+    color: #007AC0;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #1a3e8a;
+        text-decoration: none;
+    }
+
+.errorMessage {
+    color: Red;
+}
+
+#quizWrap a {
+    color: #333;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+}

@@ -1,0 +1,90 @@
+﻿@model Portal.AdminSystem.Models.SearchExecUsers
+@using GridMvc.Html
+@{
+    ViewBag.Title = "Search Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+            <div class="Container2">
+              <div class="left">
+                <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+                <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+            </div>
+            <p class="right">
+                <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+            </p>
+            <br />
+            <br />
+                <hr class="exechr" />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group greyPortal">
+                    @Html.LabelFor(model => model.SearchName, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SearchName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SearchName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group greyPortal">
+                    @Html.LabelFor(model => model.SearchSurname, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SearchSurname, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SearchSurname, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group greyPortal">
+                    @Html.LabelFor(model => model.SearchEmail, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SearchEmail, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SearchEmail, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Search" class="portalbtn btn-default" />
+                        <input type="button" id="cancel" value="Cancel" class="portalbtn btn-default" onclick="location.href='@Url.Action("Index","Home")'; " />
+                        <input type="button" value="New User" class="portalbtn btn-default" onclick="location.href='@Url.Action("ExecUsers","ExecUsers")'; " />          
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="Container2">
+                @Html.Grid(Model.ExecUsersResults).Columns(columns =>
+   {
+       columns.Add(m => m.ExecUserID)
+       .Titled("")
+       .Sanitized(false)
+       .Encoded(false)
+           .RenderValueAs(u =>
+        @<strong>
+             @Html.ActionLink("View", "Details", new { id = u.ExecUserID }) |
+            @Html.ActionLink("Update", "Edit", new { id = u.ExecUserID })
+        </strong>);
+       columns.Add(c => c.ExecName).Titled("Name");
+       columns.Add(c => c.ExecSurname).Titled("Surname");
+       columns.Add(c => c.ExecUsername).Titled("Username");
+       columns.Add(c => c.ExecPassword).Titled("Password");
+       columns.Add(c => c.Active).Titled("Active");
+
+   }).WithPaging(50).Sortable(false).Selectable(true)
+
+            </div>
+            }
+<br />
+            <script>
+                $(function () {
+                    pageGrids.ordersGrid.onRowSelect(function (e) {
+                        alert(e.row.ExecUserID);
+                    });
+                });
+            </script>
+            @section Scripts {
+                @Scripts.Render("~/bundles/jqueryval")
+            }

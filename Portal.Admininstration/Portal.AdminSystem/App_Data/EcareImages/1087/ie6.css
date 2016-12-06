@@ -1,0 +1,12 @@
+﻿.ulHeadersub li { display: inline; width: 105px; zoom: 1; }
+#data { margin-top: 10px; }
+.sliderkit_btnbg { filter: alpha(opacity=30); }
+.sliderkit-btn-disable { filter: alpha(opacity=30); }
+.sliderkit-nav-clip ul li a { filter: alpha(opacity=80); }
+.sliderkit-nav-clip ul li a:hover { filter: alpha(opacity=100); }
+.slider_contentbox { zoom: 1; }
+.sliderWrap { padding: 4px 2px; }
+.sliderkit_header { top: 0; left: 0; }
+.skBtmWrapAll, .slider_contentboxAll, .slider_content { zoom: 1; }
+.slider_contentclose { position: relative; float: right; }
+.linkscss { display: inline; }

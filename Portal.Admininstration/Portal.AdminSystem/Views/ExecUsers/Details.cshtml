@@ -1,0 +1,97 @@
+﻿@model Portal.AdminSystem.Models.ExecUsersModel
+
+@{
+    ViewBag.Title = "User Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="Container2">
+    <div class="left">
+        <img src="~/Images/Execcare.png" width:"100%"style="display: block;" />
+        <h4 class="greyPortal"><strong>@ViewBag.Title</strong></h4>
+    </div>
+    <p class="right">
+        <img src="~/Images/healthinsite.png" width:"100%"style="display: block;" />
+    </p>
+    <br />
+    <br />
+    <hr class="exechr" />
+    <dl class="dl-horizontal">
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecUserID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecUserID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecName)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecSurname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecSurname)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecEmail)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecUsername)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecUsername)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.ExecPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExecPassword)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.TypeID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TypeID)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.IsDefault)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsDefault)
+        </dd>
+
+        <dt class="greyPortal">
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+    </dl>
+    <p>
+        <input type="button" value="<<Back" class="portalbtn btn-default" onclick="location.href='@Url.Action("SearchExecUsers")'; " />
+    </p>
+</div>
+<br />
